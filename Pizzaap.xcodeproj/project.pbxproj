@@ -12,6 +12,13 @@
 		495F830D1CB09198008C6E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495F830B1CB09198008C6E41 /* Main.storyboard */; };
 		495F830F1CB09198008C6E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F830E1CB09198008C6E41 /* Assets.xcassets */; };
 		495F83121CB09198008C6E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495F83101CB09198008C6E41 /* LaunchScreen.storyboard */; };
+		495F831A1CB09271008C6E41 /* imagenIni.png in Resources */ = {isa = PBXBuildFile; fileRef = 495F83191CB09271008C6E41 /* imagenIni.png */; };
+		495F831C1CB093DA008C6E41 /* ViewTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F831B1CB093DA008C6E41 /* ViewTamano.swift */; };
+		495F831E1CB098B0008C6E41 /* ViewMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F831D1CB098B0008C6E41 /* ViewMasa.swift */; };
+		495F83201CB09B32008C6E41 /* ViewQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F831F1CB09B32008C6E41 /* ViewQueso.swift */; };
+		495F83221CB09D9D008C6E41 /* ViewIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F83211CB09D9D008C6E41 /* ViewIngredientes.swift */; };
+		495F83241CB0A711008C6E41 /* ViewPreparar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F83231CB0A711008C6E41 /* ViewPreparar.swift */; };
+		496548141CB1844C00FBAD45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496548131CB1844C00FBAD45 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		495F830E1CB09198008C6E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495F83111CB09198008C6E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495F83131CB09198008C6E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495F83191CB09271008C6E41 /* imagenIni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagenIni.png; sourceTree = "<group>"; };
+		495F831B1CB093DA008C6E41 /* ViewTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTamano.swift; sourceTree = "<group>"; };
+		495F831D1CB098B0008C6E41 /* ViewMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMasa.swift; sourceTree = "<group>"; };
+		495F831F1CB09B32008C6E41 /* ViewQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewQueso.swift; sourceTree = "<group>"; };
+		495F83211CB09D9D008C6E41 /* ViewIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewIngredientes.swift; sourceTree = "<group>"; };
+		495F83231CB0A711008C6E41 /* ViewPreparar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPreparar.swift; sourceTree = "<group>"; };
+		496548131CB1844C00FBAD45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		495F83061CB09198008C6E41 /* Pizzaap */ = {
 			isa = PBXGroup;
 			children = (
+				495F83191CB09271008C6E41 /* imagenIni.png */,
 				495F83071CB09198008C6E41 /* AppDelegate.swift */,
 				495F83091CB09198008C6E41 /* ViewController.swift */,
 				495F830B1CB09198008C6E41 /* Main.storyboard */,
 				495F830E1CB09198008C6E41 /* Assets.xcassets */,
 				495F83101CB09198008C6E41 /* LaunchScreen.storyboard */,
 				495F83131CB09198008C6E41 /* Info.plist */,
+				495F831B1CB093DA008C6E41 /* ViewTamano.swift */,
+				495F831D1CB098B0008C6E41 /* ViewMasa.swift */,
+				495F831F1CB09B32008C6E41 /* ViewQueso.swift */,
+				495F83211CB09D9D008C6E41 /* ViewIngredientes.swift */,
+				495F83231CB0A711008C6E41 /* ViewPreparar.swift */,
+				496548131CB1844C00FBAD45 /* Images.xcassets */,
 			);
 			path = Pizzaap;
 			sourceTree = "<group>";
@@ -124,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				495F83121CB09198008C6E41 /* LaunchScreen.storyboard in Resources */,
+				496548141CB1844C00FBAD45 /* Images.xcassets in Resources */,
+				495F831A1CB09271008C6E41 /* imagenIni.png in Resources */,
 				495F830F1CB09198008C6E41 /* Assets.xcassets in Resources */,
 				495F830D1CB09198008C6E41 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495F831C1CB093DA008C6E41 /* ViewTamano.swift in Sources */,
+				495F83221CB09D9D008C6E41 /* ViewIngredientes.swift in Sources */,
 				495F830A1CB09198008C6E41 /* ViewController.swift in Sources */,
+				495F831E1CB098B0008C6E41 /* ViewMasa.swift in Sources */,
 				495F83081CB09198008C6E41 /* AppDelegate.swift in Sources */,
+				495F83201CB09B32008C6E41 /* ViewQueso.swift in Sources */,
+				495F83241CB0A711008C6E41 /* ViewPreparar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +280,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Pizzaap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pizzaap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,7 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Pizzaap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Pizzaap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +321,7 @@
 				495F83181CB09198008C6E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
