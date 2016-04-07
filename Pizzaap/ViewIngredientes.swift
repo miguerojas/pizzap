@@ -21,6 +21,8 @@ class ViewIngredientes: UIViewController{
     var IngPim:Bool = false
     var IngPiñ:Bool = false
     var IngAnc:Bool = false
+   
+    
     var resultado: String = ""
     var tamano: String = ""
     var Masa: String = ""

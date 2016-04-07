@@ -86,15 +86,15 @@
                                     <segue destination="sFm-QA-tCP" kind="show" id="VgR-kV-ocB"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SF5-WW-bxL">
-                                <rect key="frame" x="0.0" y="173" width="600" height="216"/>
-                            </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona el tamaño " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzC-1V-GGo">
                                 <rect key="frame" x="155" y="89" width="291" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SF5-WW-bxL">
+                                <rect key="frame" x="0.0" y="173" width="600" height="216"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
@@ -133,12 +133,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona la masa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVd-xK-Fbl">
-                                <rect key="frame" x="173" y="72" width="255" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Act-vB-knx">
                                 <rect key="frame" x="268" y="520" width="64" height="30"/>
                                 <state key="normal" title="Siguiente"/>
@@ -149,27 +143,33 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb8-Zz-cT8">
                                 <rect key="frame" x="449" y="354" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78P-20-OTr">
                                 <rect key="frame" x="436" y="85" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZF1-1y-BV9">
-                                <rect key="frame" x="0.0" y="169" width="600" height="216"/>
+                                <rect key="frame" x="-10" y="219" width="600" height="216"/>
+                                <color key="backgroundColor" red="0.29492050679999998" green="0.74204125170000002" blue="0.77081330130000003" alpha="1" colorSpace="calibratedRGB"/>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona la masa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVd-xK-Fbl">
+                                <rect key="frame" x="173" y="72" width="255" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.29492050679999998" green="0.74204125170000002" blue="0.77081330130000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.9951897900875869" green="0.94883873690383636" blue="1" alpha="0.30821659482758623" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="leading" secondItem="5IH-04-4RN" secondAttribute="leading" id="NE7-GV-eD1"/>
+                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="leading" secondItem="5IH-04-4RN" secondAttribute="leading" constant="-10" id="NE7-GV-eD1"/>
                             <constraint firstItem="Act-vB-knx" firstAttribute="centerX" secondItem="5IH-04-4RN" secondAttribute="centerX" constant="6" id="P00-MX-kXH"/>
                             <constraint firstItem="hVd-xK-Fbl" firstAttribute="top" secondItem="wOD-xK-dLT" secondAttribute="bottom" constant="8" id="PMW-TV-sed"/>
-                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="top" secondItem="hVd-xK-Fbl" secondAttribute="bottom" constant="61" id="cGc-vp-t6w"/>
-                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="centerX" secondItem="5IH-04-4RN" secondAttribute="centerX" id="ulF-Kc-PjS"/>
-                            <constraint firstItem="Act-vB-knx" firstAttribute="top" secondItem="ZF1-1y-BV9" secondAttribute="bottom" constant="135" id="y2o-LL-tOq"/>
+                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="top" secondItem="hVd-xK-Fbl" secondAttribute="bottom" constant="111" id="cGc-vp-t6w"/>
+                            <constraint firstItem="ZF1-1y-BV9" firstAttribute="centerX" secondItem="5IH-04-4RN" secondAttribute="centerX" constant="-10" id="ulF-Kc-PjS"/>
+                            <constraint firstItem="Act-vB-knx" firstAttribute="top" secondItem="ZF1-1y-BV9" secondAttribute="bottom" constant="85" id="y2o-LL-tOq"/>
                             <constraint firstItem="hVd-xK-Fbl" firstAttribute="centerX" secondItem="5IH-04-4RN" secondAttribute="centerX" constant="0.5" id="yIJ-Tg-wWx"/>
                         </constraints>
                     </view>
@@ -512,7 +512,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="En este espacio es para los 5 ingredientes     " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jke-VC-Wna">
-                                <rect key="frame" x="130" y="338" width="273" height="48"/>
+                                <rect key="frame" x="130" y="341" width="273" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -528,7 +528,7 @@
                             <constraint firstItem="T69-OL-Rdy" firstAttribute="top" secondItem="dtm-Wc-gEv" secondAttribute="bottom" constant="34" id="MZJ-zG-7Dr"/>
                             <constraint firstItem="T69-OL-Rdy" firstAttribute="centerX" secondItem="hKh-BC-Ezg" secondAttribute="centerX" constant="83.5" id="O7Z-ez-eNg"/>
                             <constraint firstItem="jke-VC-Wna" firstAttribute="centerX" secondItem="hKh-BC-Ezg" secondAttribute="centerX" constant="-33.5" id="OxF-9W-sLh"/>
-                            <constraint firstItem="lgm-YV-PWE" firstAttribute="baseline" secondItem="jke-VC-Wna" secondAttribute="baseline" constant="-39" id="RtV-QM-b8O"/>
+                            <constraint firstItem="lgm-YV-PWE" firstAttribute="baseline" secondItem="jke-VC-Wna" secondAttribute="baseline" constant="-42" id="RtV-QM-b8O"/>
                             <constraint firstItem="TEl-aJ-CiF" firstAttribute="baseline" secondItem="7Ly-dD-mFg" secondAttribute="baseline" id="Rut-W0-R1h"/>
                             <constraint firstItem="7Ly-dD-mFg" firstAttribute="centerX" secondItem="hKh-BC-Ezg" secondAttribute="centerX" constant="56" id="UBC-yu-2ho"/>
                             <constraint firstItem="ctI-zn-ZxA" firstAttribute="centerX" secondItem="hKh-BC-Ezg" secondAttribute="centerX" constant="56" id="Vhv-PP-Grq"/>
